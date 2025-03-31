@@ -1,0 +1,4 @@
+name: OceanIsland
+version: '0'
+main: io.github.seamo.oceanIsland.CustomWorldPlugin
+api-version: '1.21'

@@ -1,0 +1,4 @@
+name: Island
+version: '0'
+main: io.github.seamo.island.Island
+api-version: '1.21'
