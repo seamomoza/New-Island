@@ -37,7 +37,7 @@ public class CustomWorldPlugin extends JavaPlugin {
                             for (int cz = finalChunkZ; cz < finalChunkZ + 5 && cz < range; cz++) {
 
                                 // 가운데 16청크(4x4 청크) 영역을 제외하고 물로 변환
-                                if (Math.abs(cx) <= 1 && Math.abs(cz) <= 1) {
+                                if (Math.abs(cx) <= 3 && Math.abs(cz) <= 3) {
                                     continue;  // 가운데 16청크는 건드리지 않음
                                 }
 
